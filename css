@@ -1,4 +1,4 @@
-** {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
@@ -12,7 +12,7 @@ bbody {
     place-items: center;
 }
 
-..calculadora {
+.calculadora {
     background-color:rgb(100, 97, 97);
     color:rgba(3, 3, 3, 0.842);
     width: 350px;
@@ -23,8 +23,8 @@ bbody {
     grid-template-columns: repeat(4, 1fr);
     gap: .5rem;
 }
-.
-..pantalla {
+
+.pantalla {
 grid-column: 1 / -1;
 background-color: rgb(238, 238, 238);
 padding: 1.5rem;
@@ -36,7 +36,7 @@ font-family: monospace;
 font-weight: 600;
 }
 
-..btn {
+.btn {
 background-color: rgb(177, 177, 192);
 color: rgb(14, 13, 13);
 border: 0;
@@ -48,7 +48,7 @@ border-radius: .5rem;
 cursor: pointer;
 }
 
-.#btn:hover{
+#btn:hover{
 background-color: rgb(54, 54, 187);
 }
 
